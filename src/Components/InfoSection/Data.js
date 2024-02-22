@@ -1,0 +1,51 @@
+export const homeObjOne = {
+  id: "about",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "Premium Bank",
+  headline: "Unlimited Transactions with zero fees",
+  description:
+    " ipsum dolor sit amet, consectetur adipiscing elit. Integer convallis massa id elit elementum consequat. Cras sed arcu venenatis dolor efficitur eleifend sit amet aliquet ante. ",
+  buttonLabel: "Get Started",
+  imgStart: false,
+  img: require("../../images/svg-2.svg").default,
+  alt: "about-img",
+  dark: true,
+  primary: true,
+  darkText: false,
+};
+export const homeObjTwo = {
+  id: "discover",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "Access The Need",
+  headline: "Discover The New Futures Of the New Technologies",
+  description:
+    " ipsum dolor sit amet, consectetur adipiscing elit. Integer convallis massa id elit elementum consequat. Cras sed arcu venenatis dolor efficitur eleifend sit amet aliquet ante. ",
+  buttonLabel: "Get Started",
+  imgStart: false,
+  img: require("../../images/svg-4.svg").default,
+  alt: "about-img",
+  dark: false,
+  primary: false,
+  darkText: true,
+};
+export const homeObjThree = {
+  id: "signup",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "Get Subscribed To Our Services",
+  headline: "Get Life time Validity",
+  description:
+    " ipsum dolor sit amet, consectetur adipiscing elit. Integer convallis massa id elit elementum consequat. Cras sed arcu venenatis dolor efficitur eleifend sit amet aliquet ante. ",
+  buttonLabel: "Get Started",
+  imgStart: false,
+  img: require("../../images/svg-1.svg").default,
+  alt: "about-img",
+  dark: true,
+  primary: true,
+  darkText: false,
+};
